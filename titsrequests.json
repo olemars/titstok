@@ -1,0 +1,37 @@
+{
+    "availableItems": {
+        "apiName": "TITSPublicApi",
+        "apiVersion": "1.0",
+        "requestID": "someID",
+        "messageType": "TITSItemListRequest",
+        "sendImage": false
+    },
+    "availableTriggers": {
+        "apiName": "TITSPublicApi",
+        "apiVersion": "1.0",
+        "requestID": "someID",
+        "messageType": "TITSTriggerListRequest"
+    },
+    "throwItems": {
+        "apiName": "TITSPublicApi",
+        "apiVersion": "1.0",
+        "requestID": "someID",
+        "messageType": "TITSThrowItemsRequest",
+        "data":{
+            "items": [
+          ],
+          "delayTime": 0.05,
+          "amountOfThrows": 50,
+          "errorOnMissingID": false
+        }
+    },
+    "activateTrigger": {
+        "apiName": "TITSPublicApi",
+        "apiVersion": "1.0",
+        "requestID": "someID",
+        "messageType": "TITSTriggerActivateRequest",
+        "data": {
+          "triggerID": ""
+        }
+    }
+}

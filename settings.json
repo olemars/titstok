@@ -1,0 +1,31 @@
+{
+    "tiktokChannelName": "ethereal.in.e",
+    "events": {
+        "gift": {
+            "enabled": true,
+            "titsCustomTriggerName": "",
+            "scalePointsByRepeatCount": false,
+            "scalePointsByCost": true, 
+            "itemsPerPoint": 1.0,
+            "maxThrows": 100,
+            "itemList": [],
+            "delay": 0.05
+        },
+        "share": {
+            "enabled": false,
+            "titsCustomTriggerName": "",
+            "itemsPerPoint": 1.0,
+            "maxThrows": 100,
+            "itemList": [],
+            "delay": 0.05
+        },
+        "emote": {
+            "enabled": false,
+            "titsCustomTriggerName": "",
+            "itemsPerPoint": 1.0,
+            "maxThrows": 100,
+            "itemList": [],
+            "delay": 0.05
+        }
+    }
+}
